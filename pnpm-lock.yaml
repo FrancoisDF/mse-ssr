@@ -4,6 +4,7 @@ specifiers:
   '@fontsource/fira-mono': ^4.5.10
   '@neoconfetti/svelte': ^1.0.0
   '@playwright/test': ^1.28.1
+  '@se/web-ui': ^3.26.11
   '@sveltejs/adapter-vercel': ^1.0.0
   '@sveltejs/kit': ^1.0.0
   '@types/cookie': ^0.5.1
@@ -17,6 +18,9 @@ specifiers:
   typescript: ^4.9.3
   vite: ^4.0.0
   vitest: ^0.25.3
+
+dependencies:
+  '@se/web-ui': 3.26.11
 
 devDependencies:
   '@fontsource/fira-mono': 4.5.10
@@ -349,6 +353,10 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
+  /@popperjs/core/2.11.6:
+    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
+    dev: false
+
   /@rollup/pluginutils/4.2.1:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
     engines: {node: '>= 8.0.0'}
@@ -356,6 +364,12 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
+
+  /@se/web-ui/3.26.11:
+    resolution: {integrity: sha512-Uqur+jGviw6OIAemmXnRMM3N1rbRgnGhXPJhG6MmkouR/GdvD4/YPMD4h5KSa0fqQH6A/4ak7c0VaY1yJ1MAyA==}
+    dependencies:
+      '@popperjs/core': 2.11.6
+    dev: false
 
   /@sveltejs/adapter-vercel/1.0.0_@sveltejs+kit@1.0.0:
     resolution: {integrity: sha512-3zM/7BJbtxBo02J4/2mpZyiHZtH6HAggND/xRaBiKjSsKSMYvKC4ipqVfHoESuW5NQNAnJVf1zMAQY2PPxv91w==}
