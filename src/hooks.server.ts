@@ -1,5 +1,5 @@
 import type { Handle } from '@sveltejs/kit';
-import { renderToString } from '@se/web-ui/hydrate/index.js';
+import { renderToString } from '@se/web-ui/hydrate/index';
 
 
 export const handle = (async ({ event, resolve }) => {
