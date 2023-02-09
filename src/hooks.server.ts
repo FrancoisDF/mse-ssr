@@ -7,7 +7,10 @@ export const handle = (async ({ event, resolve }) => {
     transformPageChunk: async ({ html }) => {
       return renderToString(html, {
         prettyHtml: true,
-        removeScripts: false
+        // removeScripts: false,
+        removeAttributeQuotes: true,
+        removeHtmlComments: true,
+        removeUnusedStyles: true,
       }).then(results => results.html);
     },
   });
