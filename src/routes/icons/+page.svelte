@@ -35,7 +35,8 @@
     tempor incididunt ut labore et dolore magna aliqua.
   </se-dialog-content>
   <se-dialog-footer>
-    <se-button on:click={()=>{open=false}}>OK
+    <se-button on:click={()=>{open=false}}>
+			OK
     </se-button>
   </se-dialog-footer>
 </se-dialog>
