@@ -59,9 +59,15 @@
 			<se-sidemenu-item item="Close" id="side-close"></se-sidemenu-item>
 		</se-sidemenu>
 	</se-header>
-	<se-tab option="anchor">
+	<!-- <se-tab option="anchor">
 		<se-tab-item href="/" >Home</se-tab-item>
 		<se-tab-item href="/dashboard" >Dashboard</se-tab-item>
 		<se-tab-item href="/icons" >Icons</se-tab-item>
-	</se-tab>
-	<se-tabbar/>
+	</se-tab> -->
+  <se-tabbar color="primary">
+    <nav>
+			<a href="/" >Home</a>
+			<a href="/dashboard" >Dashboard</a>
+			<a href="/icons" >Icons</a>
+		</nav>
+  </se-tabbar>
