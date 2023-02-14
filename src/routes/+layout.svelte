@@ -2,12 +2,10 @@
 	import Header from './Header.svelte';
 </script>
 
-<se-app>
-	<Header />
+<Header />
 
-	<se-container>
-		<main>
-			<slot />
-		</main>
-	</se-container>
-</se-app>
+<se-container>
+	<main>
+		<slot />
+	</main>
+</se-container>
