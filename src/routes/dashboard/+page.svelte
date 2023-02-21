@@ -2,9 +2,9 @@
 	<title>About</title>
 	<meta name="description" content="Dashboard" />
 </svelte:head>
-<se-container position="absolute">
+<se-container>
 	<se-block>
-		<se-block-header>Dashboard</se-block-header>
+		<se-block-header>Dashboard!</se-block-header>
 		<se-block-content>
 			<div class="button-row">
 				<se-button option="flat">Flat</se-button>

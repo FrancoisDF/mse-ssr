@@ -7,11 +7,11 @@
 	<title>About</title>
 	<meta name="description" content="Icons" />
 </svelte:head>
-<se-container position="absolute">
+<se-container >
 	<se-block>
-		<se-block-header>Icons</se-block-header>
+		<se-block-header>Icons !</se-block-header>
 		<se-block-content>
-			<div class="mycoolstyle">my content</div>
+			<div class="mycoolstyle">my content test</div>
 			<ul>
 				...
 			</ul>

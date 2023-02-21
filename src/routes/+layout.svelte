@@ -4,7 +4,7 @@
 
 <Header />
 
-<se-container>
+<se-container option="centered">
 	<main>
 		<slot />
 	</main>
